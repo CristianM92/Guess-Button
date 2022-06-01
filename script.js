@@ -7,10 +7,10 @@ function createButtons() {
     button.id = "i";
    	document.getElementById("body").appendChild(button);
    	button.onclick = function() {
-    		if (winning_button == this.id) {
-    			alert("Congratulation!You won!")
-     	} else {
-          alert("Sorry!You lost!")
+      if (winning_button == this.id) {
+    	  alert("Congratulation!You won!")
+      } else {
+        alert("Sorry!You lost!")
       }
     }
   }
